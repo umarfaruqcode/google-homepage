@@ -4,14 +4,38 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
-        <li style="float:right"><a href="#">Gmail</a></li>
-        <li style="float:right"><a href="#">Image</a></li>
-        <li style="float:right"><a href="#">User Image</a></li>
-    </ul>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_image">
-    <div class="footer">
-        <p>Nigeria</p>
-      </div>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#"><img src="images/googleapp.png" alt="google image app" class="gImg"></a></li>
+                <li><button class="signin">Sign In</button></li>
+            </ul>
+        </nav>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_image" class="image">
+        <br>
+        <form>
+            <input type="text" class="search">
+            <br>
+            <div class="find">
+                <button class="gSearch">Google Search</button>
+                <button class="gSearch2">I'm Feeling Lucky</button>
+            </div>
+        </form>
+        <footer class="footer">
+            <p style="display: flex; justify-content: flex-start;">Nigeria</p>
+            <hr>
+            <ul class="foot">
+                <li>Advetising</li>
+                <li>Buisness</li>
+                <li>How Search works</li>
+                <li style="justify-content: flex-end;">Settings</li>
+                <li style="justify-content: flex-end;">Terms</li>
+                <li style="justify-content: flex-end;">Privacy</li>
+            </ul>
+        </footer>
+    </main>
+    
 </body>
 </html>

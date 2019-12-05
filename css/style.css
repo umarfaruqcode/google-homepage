@@ -1,28 +1,80 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    float: left;
-  }
+body, html{
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  height: 65px;
+}
+li{
+  margin-right: 10px;
+  list-style-type: none;
+}
+.gImg{
+  width: 20px;
+  height: 20px;
+}
+.signin{
+  background-color: #4285f4;
+  color: white;
+  height: 30px;
+}
+.image{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.search{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border: 1px solid lightgrey;
+  border-radius: 23px;
+  height: 45px;
+}
+.gSearch{
+  /* display: inline-block;
+  margin-left: auto;
+  margin-right: auto; */
+  height: 35px;
+}
+.gSearch2{
+  /* display: inline-block;
+  margin-left: auto;
+  margin-right: auto; */
+  height: 35px;
+}
+.find{
+  display: flex;
+  /* margin-right: auto;
+  margin-left: auto; */
+  align-items: center;
+  justify-content: center;
+}
+.gSearch:first-child {
+  margin-right: 10px;
+}
+.footer{
+  background-color: lightgrey;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.foot{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
